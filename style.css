@@ -1,0 +1,21 @@
+h3
+{
+    font-size: 25px !important;
+}
+
+.btn-success:hover
+{
+    background-color: hotpink;
+}
+
+canvas
+{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px rgb(241, 135, 153);}
+    to {box-shadow: 1px 1px 38px rgb(135, 207, 241);}
+}
